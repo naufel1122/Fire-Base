@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kanit', sans-serif;   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    row-gap: 2em;
+    padding: 2em 0em 1em 0em;
+}
+
+header{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: none;
+    padding: 0em;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px  hwb(212 29% 63%);
+    border-style:ridge;
+    padding: 1em;
+    row-gap: 0.7em;
+}
+legend{
+    border: 2px  hwb(212 29% 63%);
+    border-style:dotted;
+    border-top: none;
+    border-bottom: none;
+    font-size: 1.5em;
+    padding: 0.4em;
+    color: #083564;
+}
+label{
+    text-align: left;
+    width: 100%;
+    color: #083564;
+}
+input {
+    width: 90%;
+    height: 100%;
+    padding: 0.2em 0.5em;
+    border: 0px;
+    background-color: #eee;
+    color: #083564;
+    font-size: 1.3em;
+    border-left: 6px solid  hwb(212 29% 63%);
+    border-radius: 3px;
+    outline: none;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.button {
+    background-color: #4e5964;
+    color: #eee;
+    width: 90%;
+    height: 2em;
+    border: 0px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.button:active {
+    background-color: #083564;
+}
